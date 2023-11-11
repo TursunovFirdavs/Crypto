@@ -1,0 +1,34 @@
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 16px 0;
+}
+
+.nav__logo {
+    flex: 1;
+}
+
+select {
+    outline: none;
+    border: none;
+    background-color: var(--dark);
+    color: #fff;
+    font-family: var(--roboto);
+}
+
+.nav__link {
+    padding: 8px 20px;
+    background-color: var(--blue);
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--roboto);
+}
+
+.seo_title {
+    visibility: hidden;
+    width: 1px !important; 
+    height: 1px !important; 
+    // display: none;
+}

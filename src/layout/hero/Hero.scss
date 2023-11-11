@@ -1,0 +1,56 @@
+.hero {
+    height: 400px;
+    background-image: url(../../assets/photo/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0 36px;
+}
+
+.hero__title{
+    font-size: 60px;
+    font-family: var(--roboto);
+    color: var(--blue);
+    max-width: 760px;
+    margin: auto;
+}
+
+.hero__text {
+    max-width: 460px;
+    color: var(--secondary-dark);
+    font-family: var(--Montserrat);
+    font-style: 14px;
+    margin: 15px auto 70px;
+}
+
+.swiper-wrapper {
+    max-width: 1032px;
+    margin: auto;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    object-fit: cover;
+  }
+  
+.corusel-name {
+    font-family: var(--roboto);
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.corusel-price {
+  font-family: var(--roboto);
+}

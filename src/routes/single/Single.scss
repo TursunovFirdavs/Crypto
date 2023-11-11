@@ -1,0 +1,45 @@
+.single {
+    display: flex;
+}
+
+.single-info {
+    max-width: 550px;
+    width: 100%;
+    padding: 25px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo h2 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: var(--Montserrat);
+    margin: 20px 0;
+}
+
+.single-info p {
+    margin: 20px 0;
+    font-family: var(--Montserrat);
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.single-info p > strong {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.description {
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.chart {
+    flex: 1;
+}
